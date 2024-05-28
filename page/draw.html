@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="ui-mobile">
+
+<head>
+    <title>點餐小幫手 - 餐點抽籤</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="../css/draw.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="draw" style="background-color:rgb(228, 238, 245)">
+        <link rel="stylesheet" href="../css/draw.css">
+        <script src="../js/draw.js"></script>
+
+        <div data-role="panel" id="overlayPanel" data-display="overlay" data-position-fixed="true"
+            style="background-color:#F0F4F9;">
+            <h2 style="margin: 15px;">功能選單</h2>
+            <hr>
+            <div data-role="controlgroup" data-type="vertical">
+                <a href=".." class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">返回主頁</a>
+                <a href="../page/draw.html" class="ui-state-disabled ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">餐點抽籤</a>
+                <a href="../page/intro.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">餐點一覽</a>
+                <a href="../page/combo.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">套餐專區</a>
+                <a href="../page/best.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">常駐優惠</a>
+                <a href="../page/value.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">價值估計</a>
+                <a href="../page/culc.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">總價計算</a>
+                <a href="../page/tips.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">點餐須知</a>
+            </div><br>
+        </div>
+        <div data-role="head" class="ui-content">
+            <a href="#overlayPanel" data-role="button" data-inline="true" data-shadow="false"
+                style="border: 0;background-color: transparent;padding: 0;">
+                <img src="../images/bar.png" style="background-color: transparent;" width="25px"></img>
+            </a>
+            <h1>餐點抽籤</h1>
+            <hr>
+            <div style="text-align: right; display: flex; align-items: center; justify-content: flex-end;">
+                <label for="isBreakfast" style="margin-right: 5px;font-size: medium;padding-top: 5px;">早餐時段(5:00 ~
+                    10:30)</label>
+                <select name="isBreakfast" id="isBreakfast" data-role="slider" data-mini="true"
+                    style="height: 10px !important;">
+                    <option value="no"></option>
+                    <option value="yes"></option>
+                </select>
+            </div>
+            <div data-role="controlgroup" data-type="horizontal" style="text-align: right ;">
+                <a href="#" data-role="button" class="ui-btn ui-corner-all" id="drawAllBtn">抽取全部</a>
+                <a href="#" data-role="button" class="ui-btn ui-corner-all" id="clearAllBtn">清除全部</a>
+            </div>
+        </div>
+
+        <div role="main" class="ui-content"
+            style="display: grid;justify-content: space-around;grid-template-columns: repeat(auto-fill,370px); padding:1px;">
+            <div style="border-radius: 20px; padding: 5px 10px;margin:0 0px 20px;background-color: white;width: 350px;">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h2 style="margin: 0; font-weight: 900;">主食</h2>
+                    <div data-role="controlgroup" data-type="horizontal" style="text-align: right ;">
+                        <a href="#" data-role="button" class="ui-btn ui-corner-all" id="drawMainBtn">抽取</a>
+                        <a href="#" data-role="button" class="ui-btn ui-corner-all" id="clearMainBtn">清除</a>
+                    </div>
+                </div>
+                <div id="mainDrawResult">
+                    <div id="mainMealInfo" class="meal-info">
+                        <div id="mainMealName" class="meal-name" style="padding: 5px;"></div>
+                        <div id="mainMealPrice" class="meal-price"></div>
+                    </div>
+                    <div data-role="collapsible" class="collapsible" data-mini="true" id="mainMealIngredient"
+                        style="display: none;">
+                        <h4>成分</h4>
+                        <ul id="mainIngredientList"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style="border-radius: 20px; padding: 5px 10px;margin:0 0px 20px;background-color: white;width: 350px;">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h2 style="margin: 0; font-weight: 900;">飲料</h2>
+                    <div data-role="controlgroup" data-type="horizontal" style="text-align: right ;">
+                        <a href="#" class="ui-btn ui-corner-all" id="drawDrinkBtn">抽取</a>
+                        <a href="#" class="ui-btn ui-corner-all" id="clearDrinkBtn">清除</a>
+                    </div>
+                </div>
+                <div id="drinkDrawResult">
+                    <div id="drinkMealInfo" class="meal-info">
+                        <div id="drinkMealName" class="meal-name" style="padding: 5px;"></div>
+                        <div id="drinkMealPrice" class="meal-price"></div>
+                    </div>
+                    <div data-role="collapsible" class="collapsible" data-mini="true" id="drinkMealIngredient"
+                        style="display: none;">
+                        <h4>成分</h4>
+                        <ul id="drinkIngredientList"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style="border-radius: 20px; padding: 5px 10px;margin:0 0px 20px;background-color: white;width: 350px;">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h2 style="margin: 0; font-weight: 900;">點心</h2>
+                    <div data-role="controlgroup" data-type="horizontal" style="text-align: right ;">
+                        <a href="#" class="ui-btn ui-corner-all" id="drawSnackBtn">抽取</a>
+                        <a href="#" class="ui-btn ui-corner-all" id="clearSnackBtn">清除</a>
+                    </div>
+                </div>
+                <div id="snackDrawResult">
+                    <div id="snackMealInfo" class="meal-info">
+                        <div id="snackMealName" class="meal-name" style="padding: 5px;"></div>
+                        <div id="snackMealPrice" class="meal-price"></div>
+                    </div>
+                    <div data-role="collapsible" class="collapsible" data-mini="true" id="snackMealIngredient"
+                        style="display: none;">
+                        <h4>成分</h4>
+                        <ul id="snackIngredientList"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

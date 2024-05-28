@@ -1,0 +1,64 @@
+.ui-btn{
+    border:0;
+}
+
+/* 移除按鈕按下時的陰影效果 */
+.ui-btn:active, 
+.ui-btn:focus, 
+.ui-btn.ui-btn-active {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+}
+
+
+/* 將抽籤結果容器設置為居中對齊 */
+#drawResult {
+    text-align: center;
+}
+
+/* 餐點信息容器樣式，使用flexbox對齊 */
+.meal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 餐點名稱樣式 */
+.meal-name {
+    font-size: 1.8em;
+    text-align: left; /* 將文本置左 */
+    white-space:nowrap;
+}
+
+/* 餐點金額樣式 */
+.meal-price {
+    font-size: 1.2em;
+    text-align: right; /* 將文本置右 */
+}
+
+/* 成分樣式 */
+#mealIngredient {
+    margin-top: 0px;
+    margin-right: 20%;
+}
+
+/* 更改按钮的边框样式 */
+.ui-collapsible-heading .ui-btn {
+    border: 1px solid #4d6465;
+    border-radius: 4px;
+    width: 150px;
+    height: 10px;
+    top: -5px;
+}
+
+.collapsible{
+    width: 195px;
+}
+
+/* 更改内容背景颜色和内边距 */
+.ui-collapsible-content {
+    background-color: #fff;
+    padding: 1px;
+}
+

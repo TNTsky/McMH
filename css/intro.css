@@ -1,0 +1,45 @@
+#intro {
+    background-color: rgb(228, 238, 245);
+}
+
+.type-intro {
+    background-color: rgb(210, 223, 223);
+    padding: 0 20px;
+    border-radius: 8px;
+    margin: 15px 0 5px;
+}
+
+.type-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fill, minmax(170px,1fr));
+}
+
+.popup-button {
+    background-color: rgb(227, 227, 227) !important;
+    margin: 5px 3px;
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+
+.name-intro {
+    text-align: left;
+}
+
+.price-intro {
+    text-align: end;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.combo_btn{
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,993 @@
+{
+    "breakfast": {
+        "sausage-mcmuffin-with-egg": {
+            "name": "豬肉滿福堡加蛋",
+            "price": 58,
+            "ingredient": [
+                "滿福麵包",
+                "鮮肉餅",
+                "洗選蛋",
+                "吉事片"
+            ]
+        },
+        "sausage-mcmuffin": {
+            "name": "豬肉滿福堡",
+            "price": 48,
+            "ingredient": [
+                "滿福麵包",
+                "鮮肉餅",
+                "吉事片"
+            ]
+        },
+        "mega-mcmuffin": {
+            "name": "無敵豬肉滿福堡加蛋",
+            "price": 78,
+            "ingredient": [
+                "滿福麵包",
+                "鮮肉餅",
+                "吉事片",
+                "洗選蛋"
+            ]
+        },
+        "egg-mcmuffin": {
+            "name": "滿福堡",
+            "price": 50,
+            "ingredient": [
+                "滿福麵包",
+                "洋火腿",
+                "洗選蛋",
+                "吉事片"
+            ]
+        },
+        "muffin-with-vegetables": {
+            "name": "青蔬滿福堡",
+            "price": 58,
+            "ingredient": [
+                "滿福麵包",
+                "洋火腿",
+                "洗選蛋",
+                "吉事片",
+                "切片生菜"
+            ]
+        },
+        "egg-burger-with-sausage": {
+            "name": "豬肉蛋堡",
+            "price": 62,
+            "ingredient": [
+                "漢堡麵包",
+                "番茄醬",
+                "康寶新香蒜風味醬",
+                "切片生菜",
+                "洗選蛋",
+                "鮮肉餅",
+                "吉事片"
+            ]
+        },
+        "egg-burger-with-canadian-bacon": {
+            "name": "火腿蛋堡",
+            "price": 50,
+            "ingredient": [
+                "漢堡麵包",
+                "洗選蛋",
+                "吉事片",
+                "康寶新香蒜風味醬",
+                "番茄醬",
+                "洋火腿"
+            ]
+        },
+        "egg-burger": {
+            "name": "吉事蛋堡",
+            "price": 32,
+            "ingredient": [
+                "漢堡麵包",
+                "洗選蛋",
+                "吉事片",
+                "康寶新香蒜風味醬",
+                "番茄醬"
+            ]
+        },
+        "bagel-burger-with-mushroom": {
+            "name": "蕈菇嫩蛋焙果堡",
+            "price": 89,
+            "ingredient": [
+                "焙果麵包",
+                "液體蛋",
+                "番茄片",
+                "吉事片",
+                "無鹽奶油",
+                "法式香草蕈菇醬"
+            ]
+        },
+        "bagel-burger-with-cheese": {
+            "name": "番茄嫩蛋焙果堡",
+            "price": 69,
+            "ingredient": [
+                "焙果麵包",
+                "液體蛋",
+                "番茄片",
+                "吉事片",
+                "無鹽奶油"
+            ]
+        },
+        "plain-bagel": {
+            "name": "現烤焙果",
+            "price": 55,
+            "ingredient": [
+                "焙果麵包"
+            ]
+        },
+        "grand-breakfast": {
+            "name": "鷄塊鬆餅大早餐",
+            "price": 109,
+            "ingredient": [
+                "鬆餅",
+                "麥克鷄塊C",
+                "液體蛋",
+                "洋火腿"
+            ]
+        },
+        "hotcakes-with-sausage": {
+            "name": "豬肉鬆餅",
+            "price": 69,
+            "ingredient": [
+                "鬆餅",
+                "鮮肉餅"
+            ]
+        },
+        "hotcakes-3-pieces": {
+            "name": "鬆餅(3片)",
+            "price": 55,
+            "ingredient": [
+                "鬆餅"
+            ]
+        },
+        "filet-o-fish-breakfast": {
+            "name": "麥香魚",
+            "price": 49,
+            "ingredient": [
+                "漢堡麵包",
+                "麥香魚片",
+                "吉事片",
+                "麥香魚醬"
+            ]
+        },
+        "chicken-mcnuggets-6-pieces-breakfast": {
+            "name": "麥克鷄塊(6塊)",
+            "price": 66,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "chicken-mcnuggets-10-pieces-breakfast": {
+            "name": "麥克鷄塊(10塊)",
+            "price": 106,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        }
+    },
+    "extra-value-meals": {
+        "big-mac": {
+            "name": "大麥克",
+            "price": 75,
+            "ingredient": [
+                "大麥克麵包",
+                "1/10牛肉餅",
+                "吉事片",
+                "切絲生菜",
+                "大麥克醬",
+                "脫水洋蔥",
+                "酸黃瓜"
+            ]
+        },
+        "double-cheese-burger": {
+            "name": "雙層牛肉吉事堡",
+            "price": 69,
+            "ingredient": [
+                "漢堡麵包",
+                "1/10牛肉餅",
+                "吉事片",
+                "芥末醬",
+                "脫水洋蔥",
+                "酸黃瓜",
+                "番茄醬"
+            ]
+        },
+        "classic-angus-beef-burger": {
+            "name": "四盎司牛肉堡",
+            "price": 89,
+            "ingredient": [
+                "滿意麵包",
+                "芥末醬",
+                "番茄醬",
+                "酸黃瓜",
+                "切絲洋蔥",
+                "吉事片",
+                "安格斯牛肉餅"
+            ]
+        },
+        "double-classic-angus-beef-burger": {
+            "name": "雙層四盎司牛肉堡",
+            "price": 129,
+            "ingredient": [
+                "滿意麵包",
+                "芥末醬",
+                "番茄醬",
+                "酸黃瓜",
+                "切絲洋蔥",
+                "吉事片",
+                "安格斯牛肉餅"
+            ]
+        },
+        "mcchicken": {
+            "name": "麥香鷄",
+            "price": 45,
+            "ingredient": [
+                "滿意麵包",
+                "麥香鷄排",
+                "麥香鷄醬",
+                "切絲生菜"
+            ]
+        },
+        "double-mcchicken": {
+            "name": "雙層麥香鷄",
+            "price": 75,
+            "ingredient": [
+                "滿意麵包",
+                "麥香鷄排",
+                "麥香鷄醬",
+                "切絲生菜"
+            ]
+        },
+        "grilled-bbq-chicken-burger": {
+            "name": "嫩煎鷄腿堡",
+            "price": 80,
+            "ingredient": [
+                "滿意麵包",
+                "嫩煎燒烤醬",
+                "切片生菜",
+                "番茄片",
+                "嫩煎鷄腿排"
+            ]
+        },
+        "chicken-mcnuggets-6-pieces": {
+            "name": "麥克鷄塊(6塊)",
+            "price": 66,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "chicken-mcnuggets-10-pieces": {
+            "name": "麥克鷄塊(10塊)",
+            "price": 106,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "spicy-chicken-filet-burger": {
+            "name": "勁辣鷄腿堡",
+            "price": 75,
+            "ingredient": [
+                "滿意麵包",
+                "勁辣鷄腿排",
+                "麥香鷄醬",
+                "切絲生菜"
+            ]
+        },
+        "chicken-mccrispy-2-pieces": {
+            "name": "原味麥脆鷄腿(2塊)",
+            "price": 132,
+            "ingredient": [
+                "原味麥脆鷄腿(棒腿)",
+                "原味麥脆鷄腿(大腿)"
+            ]
+        },
+        "spicy-chicken-mccrispy-2-pieces": {
+            "name": "辣味麥脆鷄腿(2塊)",
+            "price": 132,
+            "ingredient": [
+                "辣味麥脆鷄腿(棒腿)",
+                "辣味麥脆鷄腿(大腿)"
+            ]
+        },
+        "filet-o-fish": {
+            "name": "麥香魚",
+            "price": 49,
+            "ingredient": [
+                "漢堡麵包",
+                "麥香魚片",
+                "吉事片",
+                "麥香魚醬"
+            ]
+        },
+        "blt-angus-beef-burger": {
+            "name": "BLT 安格斯牛肉堡",
+            "price": 119,
+            "ingredient": [
+                "布里歐麵包",
+                "安格斯牛肉餅",
+                "厚切培根",
+                "原葉生菜",
+                "番茄片",
+                "BLT燒烤醬",
+                "番茄醬"
+            ]
+        },
+        "blt-grilled-chicken-burger": {
+            "name": "BLT 嫩煎鷄腿堡",
+            "price": 119,
+            "ingredient": [
+                "布里歐麵包",
+                "BLT燒烤醬",
+                "番茄醬",
+                "原葉生菜",
+                "番茄片",
+                "嫩煎鷄腿排",
+                "厚切培根"
+            ]
+        },
+        "parmesan-angus-beef-burger": {
+            "name": "帕瑪森安格斯牛肉堡",
+            "price": 124,
+            "ingredient": [
+                "布里歐麵包",
+                "帕瑪森起司醬",
+                "安格斯牛肉餅",
+                "番茄片",
+                "原葉生菜"
+            ]
+        },
+        "parmesan-crispy-chicken-burger": {
+            "name": "帕瑪森主廚鷄腿堡",
+            "price": 124,
+            "ingredient": [
+                "布里歐麵包",
+                "帕瑪森起司醬",
+                "主廚鷄腿排",
+                "番茄片",
+                "原葉生菜"
+            ]
+        },
+        "mushroom-angus-beef-burger": {
+            "name": "蕈菇安格斯牛肉堡",
+            "price": 129,
+            "ingredient": [
+                "布里歐麵包",
+                "安格斯牛肉餅",
+                "吉事片",
+                "原葉生菜",
+                "法式香草蕈菇醬",
+                "法式香草醬"
+            ]
+        },
+        "mushroom-crispy-chicken-burger": {
+            "name": "蕈菇主廚鷄腿堡",
+            "price": 129,
+            "ingredient": [
+                "布里歐麵包",
+                "法式香草醬",
+                "主廚鷄腿排",
+                "吉事片",
+                "原葉生菜",
+                "法式香草蕈菇醬"
+            ]
+        },
+        "caesar-salad-with-spicy-fried-chicken-filet": {
+            "name": "凱撒辣脆鷄沙拉",
+            "price": 109,
+            "ingredient": [
+                "切片生菜",
+                "原葉生菜",
+                "玉米粒",
+                "番茄片",
+                "葡萄乾",
+                "勁辣鷄腿排",
+                "吉事片"
+            ]
+        },
+        "italian-salad-with-grilled-chicken-filet": {
+            "name": "義式烤鷄沙拉",
+            "price": 109,
+            "ingredient": [
+                "原葉生菜",
+                "玉米粒",
+                "番茄片",
+                "葡萄乾",
+                "嫩煎鷄腿排",
+                "吉事片",
+                "切片生菜"
+            ]
+        }
+    },
+    "beverages": {
+        "hot-black-tea": {
+            "name": "紅茶 (熱)",
+            "price": 38,
+            "ingredient": [
+                "紅茶(熱)"
+            ]
+        },
+        "hot-milk-tea-medium": {
+            "name": "奶茶 (熱)",
+            "price": 48,
+            "ingredient": [
+                "紅茶(熱)",
+                "奶水"
+            ]
+        },
+        "iced-milk-tea-large": {
+            "name": "奶茶(冰)",
+            "price": 48,
+            "ingredient": [
+                "紅茶 (熱)",
+                "奶水",
+                "液態糖",
+                "冰塊"
+            ]
+        },
+        "taiwan-fresh-orange-juice": {
+            "name": "台灣鮮榨柳丁汁(瓶裝)",
+            "price": 66,
+            "ingredient": [
+                "台灣鮮榨柳丁汁"
+            ]
+        },
+        "milk": {
+            "name": "鮮乳(盒裝)",
+            "price": 33,
+            "ingredient": [
+                "鮮乳"
+            ]
+        },
+        "evian-water": {
+            "name": "Evian 礦泉水",
+            "price": 48,
+            "ingredient": [
+                "Evian礦泉水"
+            ]
+        },
+        "coke": {
+            "name": "可口可樂(小)",
+            "price": 33,
+            "ingredient": [
+                "可口可樂汽水",
+                "冰塊"
+            ]
+        },
+        "coke-medium": {
+            "name": "可口可樂(中)",
+            "price": 38,
+            "ingredient": [
+                "可口可樂汽水",
+                "冰塊"
+            ]
+        },
+        "coke-zero": {
+            "name": "可口可樂zero(小)",
+            "price": 33,
+            "ingredient": [
+                "可口可樂ZERO汽水",
+                "冰塊"
+            ]
+        },
+        "coke-zero-medium": {
+            "name": "可口可樂zero(中)",
+            "price": 38,
+            "ingredient": [
+                "可口可樂ZERO汽水",
+                "冰塊"
+            ]
+        },
+        "sprite": {
+            "name": "雪碧(小)",
+            "price": 33,
+            "ingredient": [
+                "雪碧汽水",
+                "冰塊"
+            ]
+        },
+        "sprite-medium": {
+            "name": "雪碧(中)",
+            "price": 38,
+            "ingredient": [
+                "雪碧汽水",
+                "冰塊"
+            ]
+        },
+        "iced-black-tea-lemon-flavor": {
+            "name": "檸檬風味紅茶 (冰)(小)",
+            "price": 33,
+            "ingredient": [
+                "檸檬風味紅茶",
+                "冰塊"
+            ]
+        },
+        "iced-black-tea-lemon-flavor-medium": {
+            "name": "檸檬風味紅茶 (冰)(中)",
+            "price": 38,
+            "ingredient": [
+                "檸檬風味紅茶",
+                "冰塊"
+            ]
+        },
+        "iced-black-tea-sugar-free": {
+            "name": "無糖紅茶 (冰)(小)",
+            "price": 35,
+            "ingredient": [
+                "紅茶 (熱)",
+                "冰塊"
+            ]
+        },
+        "iced-black-tea-sugar-free-medium": {
+            "name": "無糖紅茶 (冰)(中)",
+            "price": 41,
+            "ingredient": [
+                "紅茶 (熱)",
+                "冰塊"
+            ]
+        },
+        "iced-green-tea-sugar-free": {
+            "name": "無糖綠茶 (冰)(小)",
+            "price": 35,
+            "ingredient": [
+                "無糖綠茶",
+                "冰塊"
+            ]
+        },
+        "iced-green-tea-sugar-free-medium": {
+            "name": "無糖綠茶 (冰)(中)",
+            "price": 41,
+            "ingredient": [
+                "無糖綠茶",
+                "冰塊"
+            ]
+        },
+        "espresso": {
+            "name": "義式濃縮咖啡(熱)",
+            "price": 56,
+            "ingredient": [
+                "阿拉比卡咖啡豆"
+            ]
+        },
+        "americano": {
+            "name": "經典美式咖啡(熱)",
+            "price": 48,
+            "ingredient": [
+                "阿拉比卡咖啡豆",
+                "水"
+            ]
+        },
+        "iced-americano": {
+            "name": "經典美式咖啡(冰)",
+            "price": 48,
+            "ingredient": [
+                "阿拉比卡咖啡豆",
+                "冰塊"
+            ]
+        },
+        "latte": {
+            "name": "經典那堤(熱)",
+            "price": 75,
+            "ingredient": [
+                "阿拉比卡咖啡豆",
+                "牛奶",
+                "水"
+            ]
+        },
+        "iced-latte": {
+            "name": "經典那堤(冰)",
+            "price": 75,
+            "ingredient": [
+                "阿拉比卡咖啡豆",
+                "牛奶",
+                "冰塊"
+            ]
+        },
+        "cappuccino": {
+            "name": "經典卡布奇諾(熱)",
+            "price": 56,
+            "ingredient": [
+                "阿拉比卡咖啡豆",
+                "牛奶",
+                "肉桂粉",
+                "水"
+            ]
+        },
+        "iced-cappuccino": {
+            "name": "經典卡布奇諾(冰)",
+            "price": 75,
+            "ingredient": [
+                "阿拉比卡咖啡豆",
+                "牛奶",
+                "冰塊"
+            ]
+        },
+        "honey-black-tea-iced": {
+            "name": "蜂蜜紅茶(冰)",
+            "price": 56,
+            "ingredient": [
+                "紅茶 (熱)",
+                "龍眼荔枝蜜",
+                "冰塊"
+            ]
+        },
+        "honey-milk-tea-hot": {
+            "name": "蜂蜜奶茶(熱)",
+            "price": 66,
+            "ingredient": [
+                "紅茶 (熱)",
+                "奶水",
+                "龍眼荔枝蜜"
+            ]
+        },
+        "honey-milk-tea-iced": {
+            "name": "蜂蜜奶茶(冰)",
+            "price": 66,
+            "ingredient": [
+                "紅茶 (熱)",
+                "奶水",
+                "龍眼荔枝蜜",
+                "冰塊"
+            ]
+        },
+        "caramel-milk-tea-iced": {
+            "name": "焦糖奶茶(冰)",
+            "price": 66,
+            "ingredient": [
+                "焦糖風味錫蘭紅茶",
+                "牛奶",
+                "冰塊"
+            ]
+        },
+        "hot-chocolate": {
+            "name": "巧克力(熱)",
+            "price": 70,
+            "ingredient": [
+                "巧克力風味飲品粉",
+                "水"
+            ]
+        }
+    },
+    "snacks-bf": {
+        "hash-browns": {
+            "name": "薯餅",
+            "price": 37,
+            "ingredient": [
+                "薯餅"
+            ]
+        },
+        "apple-pie": {
+            "name": "蘋果派",
+            "price": 38,
+            "ingredient": [
+                "蘋果派"
+            ]
+        },
+        "salad-large": {
+            "name": "四季沙拉",
+            "price": 55,
+            "ingredient": [
+                "切片生菜",
+                "玉米粒",
+                "葡萄乾",
+                "番茄片"
+            ]
+        },
+        "sliced-apple": {
+            "name": "水果袋",
+            "price": 42,
+            "ingredient": [
+                "水果袋(蘋果)"
+            ]
+        },
+        "corn-soup-small": {
+            "name": "玉米湯(小)",
+            "price": 43,
+            "ingredient": [
+                "玉米湯粉",
+                "玉米粒"
+            ]
+        },
+        "corn-soup-large": {
+            "name": "玉米湯(大)",
+            "price": 55,
+            "ingredient": [
+                "玉米湯粉",
+                "玉米粒"
+            ]
+        },
+        "ice-cream-cone": {
+            "name": "蛋捲冰淇淋",
+            "price": 18,
+            "ingredient": [
+                "聖代奶漿",
+                "蛋捲杯"
+            ]
+        },
+        "ice-cream-cone-large": {
+            "name": "大蛋捲冰淇淋",
+            "price": 30,
+            "ingredient": [
+                "聖代奶漿",
+                "甜筒酥杯"
+            ]
+        },
+        "chicken-mcnuggets-4-pieces": {
+            "name": "麥克鷄塊(4塊)",
+            "price": 46,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "chicken-mcnuggets-6-pieces": {
+            "name": "麥克鷄塊(6塊)",
+            "price": 66,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "chicken-mcnuggets-10-pieces": {
+            "name": "麥克鷄塊(10塊)",
+            "price": 106,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "croissant": {
+            "name": "原味可頌",
+            "price": 50,
+            "ingredient": [
+                "原味可頌"
+            ]
+        },
+        "croissant-chocolate": {
+            "name": "巧克力榛果可頌",
+            "price": 50,
+            "ingredient": [
+                "巧克力榛果風味可頌"
+            ]
+        },
+        "cinnamon-swirl": {
+            "name": "肉桂捲",
+            "price": 50,
+            "ingredient": [
+                "肉桂捲"
+            ]
+        }
+    },
+    "snacks": {
+        "McDouble": {
+            "name": "麥克雙牛堡",
+            "price": 60,
+            "ingredient": [
+                "漢堡麵包",
+                "1/10牛肉餅",
+                "芥末醬",
+                "脫水洋蔥",
+                "酸黃瓜",
+                "番茄醬",
+                "吉事片"
+            ]
+        },
+        "hamburger": {
+            "name": "漢堡",
+            "price": 33,
+            "ingredient": [
+                "漢堡麵包",
+                "1/10牛肉餅",
+                "芥末醬",
+                "脫水洋蔥",
+                "酸黃瓜",
+                "番茄醬"
+            ]
+        },
+        "cheese-burger": {
+            "name": "吉事漢堡",
+            "price": 45,
+            "ingredient": [
+                "漢堡麵包",
+                "1/10牛肉餅",
+                "吉事片",
+                "芥末醬",
+                "脫水洋蔥",
+                "酸黃瓜",
+                "番茄醬"
+            ]
+        },
+        "french-fries-small": {
+            "name": "薯條(小薯)",
+            "price": 40,
+            "ingredient": [
+                "薯條"
+            ]
+        },
+        "french-fries-medium": {
+            "name": "薯條(中薯)",
+            "price": 50,
+            "ingredient": [
+                "薯條"
+            ]
+        },
+        "french-fries-large": {
+            "name": "薯條(大薯)",
+            "price": 66,
+            "ingredient": [
+                "薯條"
+            ]
+        },
+        "chicken-mccrispy-drumstick-1-pieces": {
+            "name": "原味麥脆鷄腿(棒腿)",
+            "price": 66,
+            "ingredient": [
+                "原味麥脆鷄腿(棒腿)"
+            ]
+        },
+        "chicken-mccrispy-thigh-1-pieces": {
+            "name": "原味麥脆鷄腿(大腿)",
+            "price": 66,
+            "ingredient": [
+                "原味麥脆鷄腿(大腿)"
+            ]
+        },
+        "chicken-mccrispy-2-pieces": {
+            "name": "原味麥脆鷄腿(2塊)",
+            "price": 132,
+            "ingredient": [
+                "原味麥脆鷄腿(棒腿)",
+                "原味麥脆鷄腿(大腿)"
+            ]
+        },
+        "spicy-chicken-mccrispy-drumstick-1-pieces": {
+            "name": "辣味麥脆鷄腿(棒腿)",
+            "price": 66,
+            "ingredient": [
+                "辣味麥脆鷄腿(棒腿)"
+            ]
+        },
+        "spicy-chicken-mccrispy-thigh-1-pieces": {
+            "name": "辣味麥脆鷄腿(大腿)",
+            "price": 66,
+            "ingredient": [
+                "辣味麥脆鷄腿(大腿)"
+            ]
+        },
+        "spicy-chicken-mccrispy-2-pieces": {
+            "name": "辣味麥脆鷄腿(2塊)",
+            "price": 132,
+            "ingredient": [
+                "辣味麥脆鷄腿(棒腿)",
+                "辣味麥脆鷄腿(大腿)"
+            ]
+        },
+        "spicy-chicken-wing-2-pieces": {
+            "name": "勁辣香鷄翅(2塊)",
+            "price": 49,
+            "ingredient": [
+                "勁辣香鷄翅(二節翅)",
+                "勁辣香鷄翅(翅小腿)"
+            ]
+        },
+        "apple-pie": {
+            "name": "蘋果派",
+            "price": 38,
+            "ingredient": [
+                "蘋果派"
+            ]
+        },
+        "corn-cup": {
+            "name": "玉米杯",
+            "price": "兒童餐才有:D",
+            "ingredient": [
+                "玉米粒",
+                "葡萄乾"
+            ]
+        },
+        "salad-large": {
+            "name": "四季沙拉",
+            "price": 55,
+            "ingredient": [
+                "切片生菜",
+                "玉米粒",
+                "葡萄乾",
+                "番茄片"
+            ]
+        },
+        "sliced-apple": {
+            "name": "水果袋",
+            "price": 42,
+            "ingredient": [
+                "水果袋(蘋果)"
+            ]
+        },
+        "corn-soup-small": {
+            "name": "玉米湯(小)",
+            "price": 43,
+            "ingredient": [
+                "玉米湯粉",
+                "玉米粒"
+            ]
+        },
+        "corn-soup-large": {
+            "name": "玉米湯(大)",
+            "price": 55,
+            "ingredient": [
+                "玉米湯粉",
+                "玉米粒"
+            ]
+        },
+        "ice-cream-cone": {
+            "name": "蛋捲冰淇淋",
+            "price": 18,
+            "ingredient": [
+                "聖代奶漿",
+                "蛋捲杯"
+            ]
+        },
+        "ice-cream-cone-large": {
+            "name": "大蛋捲冰淇淋",
+            "price": 30,
+            "ingredient": [
+                "聖代奶漿",
+                "甜筒酥杯"
+            ]
+        },
+        "mcflurry": {
+            "name": "OREO冰炫風",
+            "price": 59,
+            "ingredient": [
+                "聖代奶漿",
+                "OREO餅乾"
+            ]
+        },
+        "double-oreo-mcflurry": {
+            "name": "雙倍OREO冰炫風",
+            "price": 65,
+            "ingredient": [
+                "聖代奶漿",
+                "OREO餅乾"
+            ]
+        },
+        "chicken-mcnuggets-4-pieces": {
+            "name": "麥克鷄塊(4塊)",
+            "price": 46,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "chicken-mcnuggets-6-pieces": {
+            "name": "麥克鷄塊(6塊)",
+            "price": 66,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "chicken-mcnuggets-10-pieces": {
+            "name": "麥克鷄塊(10塊)",
+            "price": 106,
+            "ingredient": [
+                "麥克鷄塊"
+            ]
+        },
+        "croissant": {
+            "name": "原味可頌",
+            "price": 50,
+            "ingredient": [
+                "原味可頌"
+            ]
+        },
+        "croissant-chocolate": {
+            "name": "巧克力榛果可頌",
+            "price": 50,
+            "ingredient": [
+                "巧克力榛果風味可頌"
+            ]
+        },
+        "cinnamon-swirl": {
+            "name": "肉桂捲",
+            "price": 50,
+            "ingredient": [
+                "肉桂捲"
+            ]
+        }
+    }
+}

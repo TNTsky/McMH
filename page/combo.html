@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>點餐小幫手 - 套餐專區</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="combo">
+        <link rel="stylesheet" href="../css/combo.css">
+
+        <div data-role="panel" id="overlayPanel" data-display="overlay" data-position-fixed="true"
+            style="background-color:#F0F4F9;">
+            <h2 style="margin: 15px;">功能選單</h2>
+            <hr>
+            <div data-role="controlgroup" data-type="vertical">
+                <a href=".." class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">返回主頁</a>
+                <a href="../page/draw.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">餐點抽籤</a>
+                <a href="../page/intro.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">餐點一覽</a>
+                <a href="../page/combo.html" class="ui-btn ui-state-disabled"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">套餐專區</a>
+                <a href="../page/best.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">常駐優惠</a>
+                <a href="../page/value.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">價值估計</a>
+                <a href="../page/culc.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">總價計算</a>
+                <a href="../page/tips.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">點餐須知</a>
+            </div><br>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <a href="#overlayPanel" data-role="button" data-inline="true" data-shadow="false"
+                style="border: 0;background-color: transparent;padding: 0;">
+                <img src="../images/bar.png" style="background-color: transparent;" width="25px"></img>
+            </a>
+
+            <h1>套餐專區</h1>
+            <hr>
+            <h2 class="title-combo">早餐 配餐選擇</h2>
+            <div class="combo-container">
+                <a href="#bf-A" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">A. 鷄塊配餐</h3>
+                    <p class="combo-name">四塊麥克雞塊<br>$38冷/熱飲</p>
+                    <p class="combo-price">NT$ 62</p>
+                </a>
+                <div data-role="popup" id="bf-A" class="ui-content" data-arrow="t">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">超盤</h3>
+                    <h4 class="self-comment">甜心卡買雞塊送飲料只要$46</h4>
+                </div>
+
+                <a href="#bf-B" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">B. 薯餅配餐</h3>
+                    <p class="combo-name">薯餅<br>$38冷/熱飲</p>
+                    <p class="combo-price">NT$ 42</p>
+                </a>
+                <div data-role="popup" id="bf-B" class="ui-content" data-arrow="t">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">盤</h3>
+                    <h4 class="self-comment">甜心卡買飲料送薯餅只要$38</h4>
+                </div>
+
+                <a href="#bf-C" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">C. 美式咖啡配餐</h3>
+                    <p class="combo-name">$48經典美式咖啡</p>
+                    <p class="combo-price">NT$ 32</p>
+                </a>
+                <div data-role="popup" id="bf-C" class="ui-content" data-arrow="t">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">窩不知道</h3>
+                    <h4 class="self-comment">沒買過</h4>
+                </div>
+
+                <a href="#bf-D" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">D. 指定飲料配餐</h3>
+                    <p class="combo-name">$38冷/熱飲</p>
+                    <p class="combo-price">NT$ 22</p>
+                </a>
+                <div data-role="popup" id="bf-D" class="ui-content" data-arrow="t">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">可</h3>
+                    <h4 class="self-comment">只想要加一杯飲料時可點</h4>
+                </div>
+            </div>
+
+
+            <h2 class="title-combo">超值全餐 配餐選擇</h2>
+            <div class="combo-container">
+                <a href="#ev-A" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">A. 經典配餐</h3>
+                    <p class="combo-name">中薯<br>$38冷/熱飲</p>
+                    <p class="combo-price">NT$ 65</p>
+                </a>
+                <div data-role="popup" id="ev-A" class="ui-content" data-arrow="b">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">超盤</h3>
+                    <h4 class="self-comment">甜心卡大薯送飲料$66</h4>
+                </div>
+
+                <a href="#ev-B" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">B. 清爽配餐</h3>
+                    <p class="combo-name">四季沙拉<br>$38冷/熱飲</p>
+                    <p class="combo-price">NT$ 70</p>
+                </a>
+                <div data-role="popup" id="ev-B" class="ui-content" data-arrow="b">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">蛤</h3>
+                    <h4 class="self-comment"><del>怎麼會去麥當勞吃沙拉</del></h4>
+                </div>
+
+                <a href="#ev-C" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">C. 勁脆配餐</h3>
+                    <p class="combo-name">麥脆鷄腿一塊<br>$38冷/熱飲</p>
+                    <p class="combo-price">NT$ 84</p>
+                </a>
+                <div data-role="popup" id="ev-C" class="ui-content" data-arrow="b">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">窩不知道</h3>
+                    <h4 class="self-comment">沒買過</h4>
+                </div>
+
+                <a href="#ev-D" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">D. 炫冰配餐</h3>
+                    <p class="combo-name">OREO冰炫風<br>小薯<br>$38冷/熱飲</p>
+                    <p class="combo-price">NT$ 99</p>
+                </a>
+                <div data-role="popup" id="ev-D" class="ui-content" data-arrow="b">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">盤</h3>
+                    <h4 class="self-comment">甜心卡送小薯 同樣餐點合計$97</h4>
+                </div>
+
+                <a href="#ev-E" class="combo-box" data-rel="popup">
+                    <h3 class="combo-combo">E. 豪吃配餐</h3>
+                    <p class="combo-name">六塊麥克鷄塊<br>小薯<br>$38冷/熱飲</p>
+                    <p class="combo-price">NT$ 99</p>
+                </a>
+                <div data-role="popup" id="ev-E" class="ui-content" data-arrow="b">
+                    <h3 class="self-title">個人評價:</h3>
+                    <hr>
+                    <h3 class="self-grade">可</h3>
+                    <h4 class="self-comment">雖比用甜心卡便宜 但小薯價值較低</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

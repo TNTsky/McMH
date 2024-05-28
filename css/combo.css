@@ -1,0 +1,58 @@
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: #999999;
+}
+
+
+#combo {
+    background-color: aliceblue;
+}
+
+.title-combo {
+    background-color: #b1d8c5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 100px;
+    margin: 10px 0px 10px;
+    text-align: center;
+    font-weight: bolder !important;
+}
+
+.combo-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 10px 0px 20px;
+}
+
+.combo-box {
+    background-color: #bbeae9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.combo-combo {
+    margin: 5px;
+}
+
+.combo-name {
+    margin: 10px;
+    font-weight: 500;
+}
+
+
+
+.combo-price {
+    text-align: end;
+    vertical-align: bottom;
+    margin: 10px;
+}
+

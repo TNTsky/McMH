@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>點餐小幫手 - 常駐優惠</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="best">
+        <link rel="stylesheet" href="../css/best.css">
+
+        <div data-role="panel" id="overlayPanel" data-display="overlay" data-position-fixed="true"
+            style="background-color:#F0F4F9;">
+            <h2 style="margin: 15px;">功能選單</h2>
+            <hr>
+            <div data-role="controlgroup" data-type="vertical">
+                <a href=".." class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">返回主頁</a>
+                <a href="../page/draw.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">餐點抽籤</a>
+                <a href="../page/intro.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">餐點一覽</a>
+                <a href="../page/combo.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">套餐專區</a>
+                <a href="../page/best.html" class="ui-btn ui-state-disabled"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">常駐優惠</a>
+                <a href="../page/value.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">價值估計</a>
+                <a href="../page/culc.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">總價計算</a>
+                <a href="../page/tips.html" class="ui-btn"
+                    style="border: 0px;background-color:#F0F4F9;font-size: larger;">點餐須知</a>
+            </div><br>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <a href="#overlayPanel" data-role="button" data-inline="true" data-shadow="false"
+                style="border: 0;background-color: transparent;padding: 0;">
+                <img src="../images/bar.png" style="background-color: transparent;" width="25px"></img>
+            </a>
+
+            <h1>常駐優惠</h1>
+            <hr>
+
+            <div class="super-best">
+
+                <div class="big-best">
+                    <h2 class="title-best-1">甜心卡 買A送B</h2>
+                    <div class="best-container">
+                        <div class="best-box">
+                            <h3 class="best-best">A 區</h3>
+                            <p class="best-name-1">
+                                經典那堤（任）<br>
+                                經典卡布奇諾(任)<br>
+                                經典美式咖啡(任)<br>
+                                中杯汽水<br>
+                                中杯冰紅茶(檸檬風味)<br>
+                                中杯冰紅茶(無糖)<br>
+                                中杯冰綠茶(無糖)<br>
+                                焦糖奶茶(冰)<br>
+                                蜂蜜紅茶(冰)<br>
+                                蜂蜜奶茶(任）<br>
+                                奶茶(冰)<br>
+                                麥克雞塊(任)<br>
+                                大包薯條<br>
+                                大杯玉米湯<br>
+                                OREO冰炫風(任)
+                            </p>
+                        </div>
+
+                        <div class="best-box">
+                            <h3 class="best-best">B 區</h3>
+                            <p class="best-name-1">
+                                中杯汽水<br>
+                                中杯冰紅茶(檸檬風味)<br>
+                                中杯冰紅茶(無糖)<br>
+                                中杯冰綠茶(無糖)<br>
+                                經典美式咖啡(任)<br>
+                                薯餅<br>
+                                蛋捲冰淇淋<br>
+                                小包薯條<br>
+                                紅茶(熱)<br>
+                                綠茶(熱)
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="big-best">
+                    <h2 class="title-best-1">1+1 星級點 (左+右)</h2>
+                    <div class="best-container">
+                        <div class="best-box">
+                            <h3 class="best-best">$50</h3>
+                            <p class="best-name-1">
+                                麥香雞<br>
+                                吉事漢堡<br>
+                                四塊麥克雞塊<br>
+                                勁辣香雞翅<br>
+                                蘋果派<br>
+                                薯條(小包)<br>
+                                大蛋捲冰淇淋
+                            </p>
+                        </div>
+
+                        <div class="best-box">
+                            <h3 class="best-best">$69</h3>
+                            <p class="best-name-1">
+                                麥克雙牛堡<br>
+                                麥香魚<br>
+                                六塊麥克雞塊<br>
+                                OREO冰炫風
+                            </p>
+                        </div>
+
+                        <div class="best-box" id="best-free">
+                            <h3 class="best-best"></h3>
+                            <p class="best-name-1">
+                                <br>可口可樂<br>
+                                <br>可口可樂(zero)<br>
+                                <br>雪碧<br>
+                                <br>檸檬風味紅茶(冰)<br>
+                                <br>無糖綠茶(小杯)<br>
+                                <br>無糖紅茶(熱)(小杯)<br>
+                                <br>紅茶(熱)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-best">
+                    <h2 class="title-best-1">得來速 VIP 貴賓卡</h2>
+                    <div class="best-container-2">
+                        <div class="best-box">
+                            <h3 class="best-best">$10</h3>
+                            <p class="best-name-1">
+                                蛋捲冰淇淋<br>
+                                小薯<br>
+                                薯餅
+                            </p>
+                        </div>
+                        <a href="https://www.mcdonalds.com/tw/zh-tw/whats-hot/DTVIPCard.html" target="_blank"
+                            class="vip-btn">
+                            <h3 class="best-best-1">點此前往</h3>
+                            <p class="best-name-1">
+                                出示其介面即可
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
