@@ -793,7 +793,7 @@
     },
     "ice-cream-cone": {
         "name": "蛋捲冰淇淋",
-        "price": 14.51,
+        "price": 10,
         "ingredient": [
             "聖代奶漿",
             "蛋捲杯"
