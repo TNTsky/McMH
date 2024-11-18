@@ -18,3 +18,11 @@
     margin: 0px;
     font-size: small;
 }
+
+.notice {
+    color: red !important;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+}
+

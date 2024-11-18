@@ -62,3 +62,9 @@
     padding: 1px;
 }
 
+.notice {
+    color: red !important;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+}
